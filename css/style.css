@@ -1,0 +1,107 @@
+#chat, #usuarios{
+		width: 100%;
+		height:400px;
+		overflow: auto;
+		border: 1px solid #666;
+		position: relative;
+		margin:20px 0px 0px 0px;
+		background: #fff;
+		border:inset; 
+}
+#usuarios {
+		margin-left: 0px;	
+}
+#mensagem {
+		height: 50px;
+		resize: none;
+		margin-top: 10px;
+}
+.usuarios_chat {
+		width:100%;
+		color:#000;
+		margin-top: 0.5%;
+		font-family: Helvetica;
+		font-weight:bold;
+
+}
+.usuarios:hover {
+		background: #ee9;
+}
+.usuarios {
+		background: #eee;
+		text-align: center;
+		width: 200px;
+		margin-top: 2%;
+		margin-left: 2%;
+		font-family: Arial;
+		font-weight:bold;
+}
+
+#text-info-mensagens, #text-info-usuarios {
+		background: #191970;
+		display: block;
+		color:#fff;
+		text-align: center;
+		font-family: Helvetica;
+}
+#btn-off {
+		margin-top: 10px;
+		width: 100%;
+		height: 50px;
+	}
+	body {
+			background: #4682B4;
+	}
+	#btn_login {
+			margin-left: 20px;
+	}
+	#principal {
+			width: 50%;
+			position: relative;
+			height: 500px;
+			margin:auto;
+			background: #555;
+			margin-top: 10px;
+			
+	}
+	.form_chat {
+			position: relative;
+			border:none;
+			width:100%;
+			padding: 10px;
+	}
+
+	.form_chat input{
+			display: block;		
+			padding:10px;
+			width: 40%;
+			margin-bottom: 20px;
+			color:#555;
+			margin:0px 0px 0px 20px;
+	}
+
+	.form_chat label{
+			color:#fff;
+			font-size: 15px;
+			font-family: Verdana;
+			font-weight: bold;
+			background: #777;
+			margin:0px 0px 0px 20px;
+	}
+	.form_chat fieldset {
+			width: 80%;
+			background: #3d3d3d;
+			border:none;
+	}
+
+	.form_chat fieldset legend {
+			background: #000;
+			padding: 10px;
+			color:#fff;
+			margin:20px 0 20px 0;
+			font-weight: bold;
+			font-family: Verdana;
+	}
+	.name_user {
+			color:#f00;
+	}
